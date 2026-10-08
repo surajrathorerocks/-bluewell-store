@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Artisan Teas & Estate Coffees | Bluewell Ventures</title>
+  <meta name="description" content="Explore our full collection of single-origin dark roasts, medium roasts, first flush black teas, and saffron kahwa. Flexible pack sizes from 100g to 2.5kg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    ⚡ <strong>Launch Special:</strong> Free Express Shipping on orders over ₹999 | Code: <strong>BLUEWELL10</strong> for 10% Off
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Bluewell<span>Ventures</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop All</a></li>
+          <li><a href="shop.html?cat=coffee">Coffee</a></li>
+          <li><a href="shop.html?cat=tea">Tea</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="cart.html" class="cart-icon-btn" aria-label="View Shopping Bag">
+            🛒
+            <span class="cart-badge">0</span>
+          </a>
+          <button type="button" class="mobile-menu-toggle">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-overlay"></div>
+  <aside class="mobile-nav">
+    <div class="mobile-nav-header">
+      <span class="brand-logo">Bluewell<span>.</span></span>
+      <button type="button" class="close-menu-btn">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop All Blends</a></li>
+      <li><a href="shop.html?cat=coffee">Estate Coffees</a></li>
+      <li><a href="shop.html?cat=tea">Specialty Teas</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html">Support</a></li>
+      <li><a href="admin.html">Admin Portal</a></li>
+    </ul>
+  </aside>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-title">
+        <span>Micro-Lot Reserve</span>
+        <h1>Our Complete Collection</h1>
+        <p style="color:var(--text-muted); max-width:550px; margin: 0.5rem auto 0;">All teas and coffees are sealed immediately after processing to lock in natural oils and complex aromas.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="shop-filters">
+        <button type="button" class="filter-btn active" data-filter="all">All Blends (4)</button>
+        <button type="button" class="filter-btn" data-filter="coffee">☕ Estate Coffee</button>
+        <button type="button" class="filter-btn" data-filter="tea">🍵 Artisan Tea</button>
+      </div>
+
+      <!-- Responsive Product Grid -->
+      <div class="product-grid" id="shop-products-grid">
+        <!-- Injected via js/main.js -->
+      </div>
+    </div>
+  </main>
+
+  <a href="https://wa.me/919876543210?text=Hello%20Bluewell%20Ventures,%20I'd%20like%20a%20recommendation%20on%20what%20to%20order!" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        &copy; 2026 Bluewell Ventures. Pure Estate Indian Brews.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

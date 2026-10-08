@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Shopping Bag & Checkout | Bluewell Ventures</title>
+  <meta name="description" content="Review your items, apply discount coupons, choose UPI or Cash on Delivery, and connect instantly on WhatsApp to finalize your delivery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    ⚡ <strong>Launch Special:</strong> Free Express Shipping on orders over ₹999 | Code: <strong>BLUEWELL10</strong> for 10% Off
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Bluewell<span>Ventures</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop All</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="cart.html" class="cart-icon-btn" aria-label="View Shopping Bag">
+            🛒
+            <span class="cart-badge">0</span>
+          </a>
+          <button type="button" class="mobile-menu-toggle">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-overlay"></div>
+  <aside class="mobile-nav">
+    <div class="mobile-nav-header">
+      <span class="brand-logo">Bluewell<span>.</span></span>
+      <button type="button" class="close-menu-btn">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop All Blends</a></li>
+      <li><a href="cart.html">View Bag</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html">Support</a></li>
+      <li><a href="admin.html">Admin Portal</a></li>
+    </ul>
+  </aside>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-title" style="margin-bottom: 2rem;">
+        <span>Seamless Express Checkout</span>
+        <h1>Your Shopping Bag</h1>
+      </div>
+
+      <div id="cart-page-content">
+        <!-- Rendered dynamically by js/main.js -->
+      </div>
+    </div>
+  </main>
+
+  <a href="https://wa.me/919876543210?text=Hello%20Bluewell%20Ventures,%20I%20need%20help%20with%20checkout!" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        &copy; 2026 Bluewell Ventures. Secure Indian Ecommerce.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
